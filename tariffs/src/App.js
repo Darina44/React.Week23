@@ -1,5 +1,4 @@
-import './App.css';
-import styles from './components/Tariff.css';
+import './App.scss';
 import Tariff from './components/Tariff';
 import { tariffs } from './tariffsData.js';
 

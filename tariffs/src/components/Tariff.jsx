@@ -1,4 +1,4 @@
-import styles from './Tariff.css';
+import './Tariff.scss';
 
 function Tariff(props) {
     const { name, price, speed, features, color } = props;
