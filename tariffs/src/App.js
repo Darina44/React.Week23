@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       {
-        tariffs.map((tariff) =>
-          <Tariff key={tariff.id} name={tariff.name} price={tariff.price} speed={tariff.price} features={tariff.features} color={tariff.color} isSelected={tariff.isSelected} />
-        )
+        tariffs.map((tariff) => (
+          <Tariff key={tariff.id} {...tariff} />
+        ))
       }
     </div>
   );
